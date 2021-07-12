@@ -1,0 +1,15 @@
+
+
+.expenses {
+    padding: 1rem;
+    background-color: var(--bgColor-expenses);
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 96%;
+  }
+
+  @media(max-width:400px) {
+    .expenses {
+      padding: 1rem 0.1rem;
+    }
+  }

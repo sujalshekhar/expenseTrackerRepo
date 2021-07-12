@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap');
+
+/* :root {
+  --bgColor : #121212;
+  --bgColor-expenses : #242424;
+  --bgColor-individual-expense : #313131;
+  --bgColor-date : #474747;
+  --bgColor-expense-price : #1261A0;
+  --bgColor-chart : #494949;
+  --bgColor-fill : #1261A0;
+  --bgColor-fill-active : #58CCED;
+  --bgColor-fill-before : #58CCED;
+  --bgColor-form : #313131;
+  --bgColor-btn : #1261A0;
+  --text-high : #ffffffee;
+ 
+} */
+
+body.active {
+  --bgColor : #ffffff;
+  --bgColor-expenses : #ffffff;
+  --bgColor-individual-expense : #ffffff;
+  --bgColor-date : #ffffff;
+  --bgColor-expense-price : #1261A0;
+  --bgColor-chart : #ffffff;
+  --bgColor-fill : #1261A0;
+  --bgColor-fill-active : #58CCED;
+  --bgColor-fill-before : #58CCED;
+  --bgColor-form : #ffffff;
+  --bgColor-btn : #1261A0;
+  --text-high : #141414ee;
+  --placeholder : #333333ee;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Mulish', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bgColor);
+}
+
+
+
